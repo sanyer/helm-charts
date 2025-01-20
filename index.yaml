@@ -67682,6 +67682,30 @@ entries:
     version: 0.2.1
   prometheus-stackdriver-exporter:
   - apiVersion: v1
+    appVersion: v0.18.0
+    created: "2025-01-20T08:54:33.251262342Z"
+    description: Stackdriver exporter for Prometheus
+    digest: 6f710d4e6e5b0b99b57b878ca4342df8a6a70eaa0de4434b0ff274e2bab2d208
+    home: https://www.stackdriver.com/
+    keywords:
+    - metrics
+    - stackdriver
+    - monitoring
+    maintainers:
+    - email: apenney@gmail.com
+      name: apenney
+      url: https://github.com/apenney
+    - email: pahli88@googlemail.com
+      name: rpahli
+      url: https://github.com/rpahli
+    name: prometheus-stackdriver-exporter
+    sources:
+    - https://github.com/prometheus-community/stackdriver_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-stackdriver-exporter
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-stackdriver-exporter-4.8.0/prometheus-stackdriver-exporter-4.8.0.tgz
+    version: 4.8.0
+  - apiVersion: v1
     appVersion: v0.17.0
     created: "2025-01-18T14:58:32.956614157Z"
     description: Stackdriver exporter for Prometheus
@@ -68755,4 +68779,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-01-19T20:54:32.943510664Z"
+generated: "2025-01-20T08:54:33.253784102Z"
