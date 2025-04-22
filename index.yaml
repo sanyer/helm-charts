@@ -66065,6 +66065,37 @@ entries:
         - name: Chart Source
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
+    appVersion: v1.11.1
+    created: "2025-04-22T20:54:29.826154144Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: 8ade7866f755c34463e465b26f3309dbf84140bc6f615d861707ea72fda6a25a
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+      url: https://github.com/cstaud
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-pushgateway-3.1.2/prometheus-pushgateway-3.1.2.tgz
+    version: 3.1.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
     appVersion: v1.11.0
     created: "2025-04-21T20:54:29.950029309Z"
     description: A Helm chart for prometheus pushgateway
@@ -70959,4 +70990,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-04-22T08:54:36.437731456Z"
+generated: "2025-04-22T20:54:29.828444289Z"
