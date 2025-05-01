@@ -1189,6 +1189,30 @@ entries:
         - name: Chart Source
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
+    appVersion: v1.6.2
+    created: "2025-05-01T20:54:37.612518076Z"
+    description: The SNMP Notifier handles alerts coming from Prometheus Alertmanager
+      and relay them as SNMP traps.
+    digest: 7c310a20ab06096b1b26d1ccd4f70854aea85796d185db0ae7bed3a23146f306
+    home: https://github.com/maxwo/snmp_notifier
+    keywords:
+    - monitoring
+    maintainers:
+    - email: maxime.wojtczak.pub@icloud.com
+      name: maxwo
+      url: https://github.com/maxwo
+    name: alertmanager-snmp-notifier
+    sources:
+    - https://github.com/maxwo/snmp_notifier
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/alertmanager-snmp-notifier-0.5.0/alertmanager-snmp-notifier-0.5.0.tgz
+    version: 0.5.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
     appVersion: v1.6.0
     created: "2025-04-25T08:54:32.90073063Z"
     description: The SNMP Notifier handles alerts coming from Prometheus Alertmanager
@@ -50772,6 +50796,46 @@ entries:
         - name: nlamirault
           email: nicolas.lamirault@gmail.com
     apiVersion: v2
+    appVersion: 1.4.2
+    created: "2025-05-01T20:54:38.177462942Z"
+    dependencies:
+    - condition: nginx.enabled
+      name: nginx
+      repository: https://charts.bitnami.com/bitnami
+      version: 19.1.1
+    description: A Helm chart for NGINX Prometheus Exporter
+    digest: 2710a541628342e387fbb5065d4a418df7515ccf44442da9767be7490d482ae5
+    home: https://github.com/nginxinc/nginx-prometheus-exporter
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - nginx
+    - monitoring
+    maintainers:
+    - email: nicolas.lamirault@gmail.com
+      name: nlamirault
+      url: https://github.com/nlamirault
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-nginx-exporter
+    sources:
+    - https://github.com/nginxinc/nginx-prometheus-exporter
+    - https://github.com/prometheus-community/helm-charts
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-nginx-exporter-1.3.2/prometheus-nginx-exporter-1.3.2.tgz
+    version: 1.3.2
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: NGINX Prometheus Exporter
+          url: https://github.com/nginxinc/nginx-prometheus-exporter
+      artifacthub.io/maintainers: |
+        - name: nlamirault
+          email: nicolas.lamirault@gmail.com
+    apiVersion: v2
     appVersion: 1.4.1
     created: "2025-05-01T14:54:39.234540576Z"
     dependencies:
@@ -71814,4 +71878,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-05-01T14:54:39.362447642Z"
+generated: "2025-05-01T20:54:38.179973622Z"
