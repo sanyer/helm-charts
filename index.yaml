@@ -30885,6 +30885,25 @@ entries:
     version: 2.13.2
   prom-label-proxy:
   - apiVersion: v2
+    appVersion: v0.11.1
+    created: "2025-05-30T14:54:33.061251558Z"
+    description: A proxy that enforces a given label in a given PromQL query.
+    digest: ef3f45543730f936254139097fc181c34359f6ebd344eaf4721bf3d61e470ee7
+    home: https://github.com/prometheus-community/prom-label-proxy
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: github@jkroepke.de
+      name: Jan-Otto Kröpke
+      url: https://github.com/jkroepke
+    name: prom-label-proxy
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prom-label-proxy-0.12.3/prom-label-proxy-0.12.3.tgz
+    version: 0.12.3
+  - apiVersion: v2
     appVersion: v0.11.0
     created: "2025-05-23T14:54:33.981899405Z"
     description: A proxy that enforces a given label in a given PromQL query.
@@ -74296,6 +74315,28 @@ entries:
     version: 0.1.0
   prometheus-windows-exporter:
   - apiVersion: v2
+    appVersion: 0.30.7
+    created: "2025-05-30T14:54:33.161612132Z"
+    description: A Helm chart for prometheus windows-exporter
+    digest: 9593a008719301a112775921a9aa6284d1834f7a4e3e9f523887551b251a9414
+    home: https://github.com/prometheus-community/windows_exporter/
+    keywords:
+    - windows-exporter
+    - windows
+    - prometheus
+    - exporter
+    maintainers:
+    - email: github@jkroepke.de
+      name: Jan-Otto Kröpke
+      url: https://github.com/jkroepke
+    name: prometheus-windows-exporter
+    sources:
+    - https://github.com/prometheus-community/windows_exporter/
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-windows-exporter-0.10.2/prometheus-windows-exporter-0.10.2.tgz
+    version: 0.10.2
+  - apiVersion: v2
     appVersion: 0.30.6
     created: "2025-05-22T20:54:38.470952467Z"
     description: A Helm chart for prometheus windows-exporter
@@ -74465,4 +74506,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-05-30T08:54:48.831632312Z"
+generated: "2025-05-30T14:54:33.165944237Z"
