@@ -51623,6 +51623,24 @@ entries:
   prometheus-fastly-exporter:
   - apiVersion: v2
     appVersion: v9.5.0
+    created: "2025-07-16T08:54:39.404738777Z"
+    description: A Helm chart for the Prometheus Fastly Exporter
+    digest: 663f8b4c4d42844d9521aa54f1d5a3f07ac108dbd500394e2fdc482b3597d845
+    home: https://github.com/fastly/fastly-exporter
+    keywords:
+    - metrics
+    - fastly
+    - monitoring
+    maintainers:
+    - email: arslanbekov@gmail.com
+      name: arslanbekov
+      url: https://github.com/arslanbekov
+    name: prometheus-fastly-exporter
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-fastly-exporter-0.9.0/prometheus-fastly-exporter-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    appVersion: v9.5.0
     created: "2025-07-15T02:56:17.605817484Z"
     description: A Helm chart for the Prometheus Fastly Exporter
     digest: 0b6099b06df793558a2bf975b11960bc3b8a75799d0fd3f56c1249c32261a5af
@@ -76704,4 +76722,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-07-15T20:54:56.168262411Z"
+generated: "2025-07-16T08:54:39.408326143Z"
