@@ -50715,6 +50715,28 @@ entries:
     version: 0.1.0
   prometheus-conntrack-stats-exporter:
   - apiVersion: v2
+    appVersion: v0.4.32
+    created: "2025-07-26T20:54:33.451684749Z"
+    description: A Helm chart for conntrack-stats-exporter
+    digest: 6b19d8a3f3c57e04f13c134df69843c18455734f74bf690ece8a4de3f53c7c72
+    home: https://github.com/jwkohnen/conntrack-stats-exporter
+    keywords:
+    - conntrack
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    name: prometheus-conntrack-stats-exporter
+    sources:
+    - https://github.com/jwkohnen/conntrack-stats-exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-conntrack-stats-exporter
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-conntrack-stats-exporter-0.5.25/prometheus-conntrack-stats-exporter-0.5.25.tgz
+    version: 0.5.25
+  - apiVersion: v2
     appVersion: v0.4.31
     created: "2025-07-20T03:14:00.568238908Z"
     description: A Helm chart for conntrack-stats-exporter
@@ -78505,4 +78527,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-07-25T20:55:00.700710118Z"
+generated: "2025-07-26T20:54:33.455785912Z"
