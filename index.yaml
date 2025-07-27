@@ -54156,6 +54156,30 @@ entries:
   prometheus-mongodb-exporter:
   - apiVersion: v2
     appVersion: 0.44.0
+    created: "2025-07-27T20:54:33.178304964Z"
+    description: A Prometheus exporter for MongoDB metrics
+    digest: 88a82d4965e565eedd279d24979d65c5dc4fa2f146844d9e2147fc676df19f4b
+    home: https://github.com/percona/mongodb_exporter
+    keywords:
+    - exporter
+    - metrics
+    - mongodb
+    - prometheus
+    maintainers:
+    - email: ssheehy@firescope.com
+      name: steven-sheehy
+      url: https://github.com/steven-sheehy
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-mongodb-exporter
+    sources:
+    - https://github.com/percona/mongodb_exporter
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-mongodb-exporter-3.12.1/prometheus-mongodb-exporter-3.12.1.tgz
+    version: 3.12.1
+  - apiVersion: v2
+    appVersion: 0.44.0
     created: "2025-04-17T02:56:26.858015286Z"
     description: A Prometheus exporter for MongoDB metrics
     digest: 900f1e107229d61790f31b07711106cfc7385367f420ebd6ebea28c329fc1ae7
@@ -55345,6 +55369,29 @@ entries:
     - https://prometheus-community.github.io/helm-charts/prometheus-mysql-exporter-0.1.0.tgz
     version: 0.1.0
   prometheus-nats-exporter:
+  - apiVersion: v1
+    appVersion: 0.17.3
+    created: "2025-07-27T20:54:33.281735017Z"
+    description: A Helm chart for prometheus-nats-exporter
+    digest: 0680d460a752de4d2bd75b715ffbf10dd476ad316de57de4437e3c1195ae99e0
+    home: https://github.com/nats-io/prometheus-nats-exporter
+    keywords:
+    - nats
+    - prometheus
+    - exporter
+    maintainers:
+    - email: okgolove@markeloff.net
+      name: okgolove
+      url: https://github.com/okgolove
+    - email: carlos@carlosbecker.com
+      name: caarlos0
+      url: https://github.com/caarlos0
+    name: prometheus-nats-exporter
+    sources:
+    - https://github.com/nats-io/prometheus-nats-exporter
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-nats-exporter-2.20.1/prometheus-nats-exporter-2.20.1.tgz
+    version: 2.20.1
   - apiVersion: v1
     appVersion: 0.17.3
     created: "2025-07-15T02:56:18.308993465Z"
@@ -78671,4 +78718,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-07-27T14:55:07.749890339Z"
+generated: "2025-07-27T20:54:33.286307924Z"
