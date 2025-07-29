@@ -78808,6 +78808,33 @@ entries:
   prometheus-yet-another-cloudwatch-exporter:
   - apiVersion: v2
     appVersion: v0.62.1
+    created: "2025-07-29T14:54:33.895553998Z"
+    description: Yace - Yet Another CloudWatch Exporter
+    digest: bacb05800de1f033ec981945455e74b549a4ee199bdc91f896d8b8f64725d233
+    home: https://github.com/prometheus-community/helm-charts
+    keywords:
+    - aws
+    - cloudwatch
+    - prometheus
+    - exporter
+    - yet-another-cloudwatch-exporter
+    - yace
+    maintainers:
+    - email: cristian.greco@grafana.com
+      name: cristiangreco
+      url: https://github.com/cristiangreco
+    - email: info@thomas-peitz.de
+      name: thomaspeitz
+      url: https://github.com/thomaspeitz
+    name: prometheus-yet-another-cloudwatch-exporter
+    sources:
+    - https://github.com/prometheus-community/yet-another-cloudwatch-exporter
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.40.2/prometheus-yet-another-cloudwatch-exporter-0.40.2.tgz
+    version: 0.40.2
+  - apiVersion: v2
+    appVersion: v0.62.1
     created: "2025-05-12T14:54:32.022399143Z"
     description: Yace - Yet Another CloudWatch Exporter
     digest: b9fe2eb9413317b89099c1e25307fd8d2f131279c5df593b1400b29e499362c0
@@ -78887,4 +78914,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-07-29T08:54:35.597649955Z"
+generated: "2025-07-29T14:54:33.898283201Z"
