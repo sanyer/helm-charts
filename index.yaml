@@ -47852,6 +47852,38 @@ entries:
   prometheus-blackbox-exporter:
   - apiVersion: v2
     appVersion: v0.27.0
+    created: "2025-08-11T08:54:33.826472058Z"
+    description: Prometheus Blackbox Exporter
+    digest: 4ffb6ca2c29bfb22f480fc9b01ac8f710448a849f1bfa77e3ad381e32d5b3149
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+      url: https://github.com/desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+      url: https://github.com/rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-blackbox-exporter-11.2.2/prometheus-blackbox-exporter-11.2.2.tgz
+    version: 11.2.2
+  - apiVersion: v2
+    appVersion: v0.27.0
     created: "2025-08-06T08:54:49.706744613Z"
     description: Prometheus Blackbox Exporter
     digest: 9c524ad70f767fb0178c80425cb67383c9bdd4ff70b8eb50ea97af855ca5aa55
@@ -78832,6 +78864,27 @@ entries:
   prometheus-stackdriver-exporter:
   - apiVersion: v1
     appVersion: v0.18.0
+    created: "2025-08-11T08:54:33.956816773Z"
+    description: Stackdriver exporter for Prometheus
+    digest: f46c542462e12a9e521f58f598f5a4796ae709e756a2e55ab66a7dda5c590d37
+    home: https://www.stackdriver.com/
+    keywords:
+    - metrics
+    - stackdriver
+    - monitoring
+    maintainers:
+    - email: pahli88@googlemail.com
+      name: rpahli
+      url: https://github.com/rpahli
+    name: prometheus-stackdriver-exporter
+    sources:
+    - https://github.com/prometheus-community/stackdriver_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-stackdriver-exporter
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-stackdriver-exporter-4.9.0/prometheus-stackdriver-exporter-4.9.0.tgz
+    version: 4.9.0
+  - apiVersion: v1
+    appVersion: v0.18.0
     created: "2025-07-28T20:54:52.65901151Z"
     description: Stackdriver exporter for Prometheus
     digest: 8ba685b238eee4231817d065befd9d698a05bf95a1107a8719c658b81ffe7c16
@@ -80301,4 +80354,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-08-09T02:54:34.434257501Z"
+generated: "2025-08-11T08:54:33.962152825Z"
