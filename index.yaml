@@ -57531,6 +57531,30 @@ entries:
     version: 0.1.2
   prometheus-mongodb-exporter:
   - apiVersion: v2
+    appVersion: 0.47.1
+    created: "2025-09-05T08:54:34.582961324Z"
+    description: A Prometheus exporter for MongoDB metrics
+    digest: 2f93213ea960c8a951edcb437e4bded59ea0717335f884da561925de9c8e8304
+    home: https://github.com/percona/mongodb_exporter
+    keywords:
+    - exporter
+    - metrics
+    - mongodb
+    - prometheus
+    maintainers:
+    - email: ssheehy@firescope.com
+      name: steven-sheehy
+      url: https://github.com/steven-sheehy
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-mongodb-exporter
+    sources:
+    - https://github.com/percona/mongodb_exporter
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-mongodb-exporter-3.14.0/prometheus-mongodb-exporter-3.14.0.tgz
+    version: 3.14.0
+  - apiVersion: v2
     appVersion: 0.44.0
     created: "2025-08-29T14:54:55.815986497Z"
     description: A Prometheus exporter for MongoDB metrics
@@ -83098,4 +83122,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-09-04T02:54:50.185165861Z"
+generated: "2025-09-05T08:54:34.586192996Z"
