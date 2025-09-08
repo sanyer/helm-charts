@@ -34868,6 +34868,68 @@ entries:
           url: https://github.com/prometheus/prometheus
     apiVersion: v2
     appVersion: v3.5.0
+    created: "2025-09-08T14:54:55.20767344Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 1.26.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 6.3.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.47.*
+    - condition: prometheus-pushgateway.enabled
+      name: prometheus-pushgateway
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 3.4.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: 441e124713353f0847d5c86c45426128b7ac9330bd36e6ffe363fa0c4ca88ea4
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    - prometheus
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-27.37.0/prometheus-27.37.0.tgz
+    version: 27.37.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus/prometheus
+    apiVersion: v2
+    appVersion: v3.5.0
     created: "2025-09-06T20:54:51.950373788Z"
     dependencies:
     - condition: alertmanager.enabled
@@ -54068,6 +54130,28 @@ entries:
     - https://prometheus-community.github.io/helm-charts/prometheus-cloudwatch-exporter-0.1.0.tgz
     version: 0.1.0
   prometheus-conntrack-stats-exporter:
+  - apiVersion: v2
+    appVersion: v0.4.34
+    created: "2025-09-08T14:54:55.380348672Z"
+    description: A Helm chart for conntrack-stats-exporter
+    digest: dd3539bfcdc6d6848d7a465e721718791db11e65a3ea3e3086ca2805323d936e
+    home: https://github.com/jwkohnen/conntrack-stats-exporter
+    keywords:
+    - conntrack
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    name: prometheus-conntrack-stats-exporter
+    sources:
+    - https://github.com/jwkohnen/conntrack-stats-exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-conntrack-stats-exporter
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-conntrack-stats-exporter-0.5.27/prometheus-conntrack-stats-exporter-0.5.27.tgz
+    version: 0.5.27
   - apiVersion: v2
     appVersion: v0.4.33
     created: "2025-08-23T02:54:36.133860656Z"
@@ -83206,4 +83290,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-09-06T20:54:51.95343574Z"
+generated: "2025-09-08T14:54:55.384443776Z"
