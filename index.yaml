@@ -32558,6 +32558,39 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 2.17.0
+    created: "2025-09-18T20:54:36.960546269Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 74e13c0d03f4ae7fc133546d156536b313d43a25733829d980c22523b881b929
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+      url: https://github.com/tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+      url: https://github.com/mrueg
+    - email: david@0xdc.me
+      name: dotdc
+      url: https://github.com/dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/kube-state-metrics-6.4.0/kube-state-metrics-6.4.0.tgz
+    version: 6.4.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 2.17.0
     created: "2025-09-03T08:54:39.474568004Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 3741297a129fb7803268675265e23cc00c11d134b8f37a43d89aea3f1789dad7
@@ -35087,6 +35120,25 @@ entries:
     - https://github.com/prometheus-community/helm-charts/releases/download/kube-state-metrics-2.13.2/kube-state-metrics-2.13.2.tgz
     version: 2.13.2
   prom-label-proxy:
+  - apiVersion: v2
+    appVersion: v0.12.1
+    created: "2025-09-18T20:54:37.139361923Z"
+    description: A proxy that enforces a given label in a given PromQL query.
+    digest: 72a63238b6a516ed0cbcf6b1f736660738a78d4633246d5e5948fda3d630ef65
+    home: https://github.com/prometheus-community/prom-label-proxy
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: github@jkroepke.de
+      name: Jan-Otto Kröpke
+      url: https://github.com/jkroepke
+    name: prom-label-proxy
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prom-label-proxy-0.16.0/prom-label-proxy-0.16.0.tgz
+    version: 0.16.0
   - apiVersion: v2
     appVersion: v0.12.1
     created: "2025-09-12T20:55:03.597643003Z"
@@ -61206,6 +61258,38 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 1.9.1
+    created: "2025-09-18T20:54:37.31337761Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: dbea5e25565bfa0d47857a34a557cfda6701f4e2206bb831d8e7899be39983c1
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-node-exporter-4.48.0/prometheus-node-exporter-4.48.0.tgz
+    version: 4.48.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 1.9.1
     created: "2025-07-24T02:54:51.610908384Z"
     description: A Helm chart for prometheus node-exporter
     digest: b0c839c5f9ed3eee47662b03b98091f2e84bb400d2c4281e3f753ef710479c11
@@ -83873,4 +83957,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-09-17T14:54:54.783350596Z"
+generated: "2025-09-18T20:54:37.316551549Z"
