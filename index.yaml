@@ -76496,6 +76496,33 @@ entries:
     version: 0.1.0
   prometheus-postgres-exporter:
   - apiVersion: v2
+    appVersion: v0.18.0
+    created: "2025-09-25T20:54:38.813614046Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: 7cedd1de8bf0a92fadcb6ab567fddcf7442fea30c7ec69807122618d7f0ef35d
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-postgres-exporter-7.2.0/prometheus-postgres-exporter-7.2.0.tgz
+    version: 7.2.0
+  - apiVersion: v2
     appVersion: v0.17.1
     created: "2025-07-29T08:54:35.593832687Z"
     description: A Helm chart for prometheus postgres-exporter
@@ -84336,4 +84363,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-09-23T20:55:07.862828911Z"
+generated: "2025-09-25T20:54:38.817868937Z"
