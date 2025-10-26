@@ -56587,6 +56587,28 @@ entries:
     version: 0.1.0
   prometheus-conntrack-stats-exporter:
   - apiVersion: v2
+    appVersion: v0.4.35
+    created: "2025-10-26T14:54:53.287941276Z"
+    description: A Helm chart for conntrack-stats-exporter
+    digest: 2ad8a1420522e91e33b687c571173b956ca14a2231615f0c5841eb9ba3b41426
+    home: https://github.com/jwkohnen/conntrack-stats-exporter
+    keywords:
+    - conntrack
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    name: prometheus-conntrack-stats-exporter
+    sources:
+    - https://github.com/jwkohnen/conntrack-stats-exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-conntrack-stats-exporter
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-conntrack-stats-exporter-0.5.28/prometheus-conntrack-stats-exporter-0.5.28.tgz
+    version: 0.5.28
+  - apiVersion: v2
     appVersion: v0.4.34
     created: "2025-09-08T14:54:55.380348672Z"
     description: A Helm chart for conntrack-stats-exporter
@@ -58764,6 +58786,25 @@ entries:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-fastly-exporter-0.1.0/prometheus-fastly-exporter-0.1.0.tgz
     version: 0.1.0
   prometheus-ipmi-exporter:
+  - apiVersion: v2
+    appVersion: v1.10.1
+    created: "2025-10-26T14:54:53.422825019Z"
+    description: This is an IPMI exporter for Prometheus.
+    digest: 1395396234047ad722f88d594e80128ffbb4c6dc6a7a99e25eb1663ca40181e1
+    home: https://github.com/prometheus-community/ipmi_exporter
+    keywords:
+    - metrics
+    - ipmi
+    - monitoring
+    maintainers:
+    - email: f@lex.la
+      name: lexfrei
+      url: https://github.com/lexfrei
+    name: prometheus-ipmi-exporter
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-ipmi-exporter-0.7.0/prometheus-ipmi-exporter-0.7.0.tgz
+    version: 0.7.0
   - apiVersion: v2
     appVersion: v1.10.1
     created: "2025-08-22T20:54:52.094281263Z"
@@ -86770,4 +86811,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-10-26T02:54:39.2418856Z"
+generated: "2025-10-26T14:54:53.425816806Z"
