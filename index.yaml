@@ -8,6 +8,36 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v0.29.0
+    created: "2025-11-21T14:54:40.142042312Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: d191e574d99b6414fac10136129ed3a2f1fa86f2757782c76fca337bc283c8e0
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/alertmanager-1.29.0/alertmanager-1.29.0.tgz
+    version: 1.29.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v0.29.0
     created: "2025-11-07T20:55:17.036357166Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
@@ -53677,6 +53707,38 @@ entries:
   prometheus-blackbox-exporter:
   - apiVersion: v2
     appVersion: v0.27.0
+    created: "2025-11-21T14:54:40.289301991Z"
+    description: Prometheus Blackbox Exporter
+    digest: 086e0bbcd29140f4fa8af4d7589a04d7a4006b4979307b6179f044fc51f74a7e
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+      url: https://github.com/desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+      url: https://github.com/rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-blackbox-exporter-11.5.0/prometheus-blackbox-exporter-11.5.0.tgz
+    version: 11.5.0
+  - apiVersion: v2
+    appVersion: v0.27.0
     created: "2025-11-07T20:55:17.370837388Z"
     description: Prometheus Blackbox Exporter
     digest: 6701350d804db94c113a027d992ec246385ac28485d16da0d4cab6d12104c068
@@ -62909,6 +62971,29 @@ entries:
     - https://prometheus-community.github.io/helm-charts/prometheus-mysql-exporter-0.1.0.tgz
     version: 0.1.0
   prometheus-nats-exporter:
+  - apiVersion: v1
+    appVersion: 0.18.0
+    created: "2025-11-21T14:54:40.440985498Z"
+    description: A Helm chart for prometheus-nats-exporter
+    digest: af8b0c82f43479090384fdde248c6dabafeb29983c7de32cfb907183ceedd299
+    home: https://github.com/nats-io/prometheus-nats-exporter
+    keywords:
+    - nats
+    - prometheus
+    - exporter
+    maintainers:
+    - email: okgolove@markeloff.net
+      name: okgolove
+      url: https://github.com/okgolove
+    - email: carlos@carlosbecker.com
+      name: caarlos0
+      url: https://github.com/caarlos0
+    name: prometheus-nats-exporter
+    sources:
+    - https://github.com/nats-io/prometheus-nats-exporter
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-nats-exporter-2.21.0/prometheus-nats-exporter-2.21.0.tgz
+    version: 2.21.0
   - apiVersion: v1
     appVersion: 0.17.3
     created: "2025-07-30T14:54:33.222500923Z"
@@ -88422,4 +88507,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-11-20T02:54:58.264759431Z"
+generated: "2025-11-21T14:54:40.444225168Z"
