@@ -78725,6 +78725,37 @@ entries:
           url: https://github.com/prometheus-operator/prometheus-operator
     apiVersion: v2
     appVersion: 0.87.0
+    created: "2025-11-28T02:54:40.248780771Z"
+    description: Prometheus Operator Admission Webhook
+    digest: b1042958fea7f39055a5e24b0b92938f02c1c9e3588ec765e97fc749a65050be
+    home: https://github.com/prometheus-operator/prometheus-operator
+    icon: https://github.com/prometheus-operator/prometheus-operator/raw/main/Documentation/logos/prometheus-operator-logo.png
+    keywords:
+    - admission
+    - monitoring
+    - prometheus-operator
+    - webhook
+    maintainers:
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-operator-admission-webhook
+    sources:
+    - https://github.com/prometheus-operator/prometheus-operator
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-operator-admission-webhook
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-operator-admission-webhook-0.33.1/prometheus-operator-admission-webhook-0.33.1.tgz
+    version: 0.33.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/prometheus-operator
+    apiVersion: v2
+    appVersion: 0.87.0
     created: "2025-11-21T20:55:28.43624239Z"
     description: Prometheus Operator Admission Webhook
     digest: 9f5661363405fc9876fa29cb1baaa81932e60b8fb84851c1f5e64d7e21244e01
@@ -82711,6 +82742,37 @@ entries:
     - https://prometheus-community.github.io/helm-charts/prometheus-postgres-exporter-0.1.0.tgz
     version: 0.1.0
   prometheus-pushgateway:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v1.11.2
+    created: "2025-11-28T02:54:40.425040658Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: 31e5b5b9e645e397483c9fd3de6f2ad9a1397a6390981f19cbe7393a751fd969
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+      url: https://github.com/cstaud
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-pushgateway-3.5.0/prometheus-pushgateway-3.5.0.tgz
+    version: 3.5.0
   - annotations:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -89054,4 +89116,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2025-11-27T02:54:33.724059885Z"
+generated: "2025-11-28T02:54:40.428722105Z"
