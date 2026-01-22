@@ -66347,6 +66347,30 @@ entries:
   prometheus-mongodb-exporter:
   - apiVersion: v2
     appVersion: 0.47.2
+    created: "2026-01-22T02:54:41.739785749Z"
+    description: A Prometheus exporter for MongoDB metrics
+    digest: d64ea9bec22c002cc3ed89257147fb91d45afa7db6122bf61c361ac79a87e1e1
+    home: https://github.com/percona/mongodb_exporter
+    keywords:
+    - exporter
+    - metrics
+    - mongodb
+    - prometheus
+    maintainers:
+    - email: ssheehy@firescope.com
+      name: steven-sheehy
+      url: https://github.com/steven-sheehy
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-mongodb-exporter
+    sources:
+    - https://github.com/percona/mongodb_exporter
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-mongodb-exporter-3.16.0/prometheus-mongodb-exporter-3.16.0.tgz
+    version: 3.16.0
+  - apiVersion: v2
+    appVersion: 0.47.2
     created: "2025-11-27T02:54:33.719269981Z"
     description: A Prometheus exporter for MongoDB metrics
     digest: 8271eae8993d7dafbf7a2c16b22c09293a9a513770258083e33f598ff34c903b
@@ -83428,6 +83452,37 @@ entries:
           url: https://github.com/prometheus-operator/prometheus-operator
     apiVersion: v2
     appVersion: 0.88.0
+    created: "2026-01-22T02:54:41.918262885Z"
+    description: Prometheus Operator Admission Webhook
+    digest: f5631382285c9a7b6c398222db6ece50ddddcbab642f817d0fda20c089dbb78e
+    home: https://github.com/prometheus-operator/prometheus-operator
+    icon: https://github.com/prometheus-operator/prometheus-operator/raw/main/Documentation/logos/prometheus-operator-logo.png
+    keywords:
+    - admission
+    - monitoring
+    - prometheus-operator
+    - webhook
+    maintainers:
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-operator-admission-webhook
+    sources:
+    - https://github.com/prometheus-operator/prometheus-operator
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-operator-admission-webhook
+    type: application
+    urls:
+    - https://github.com/sanyer/helm-charts/releases/download/prometheus-operator-admission-webhook-0.35.0/prometheus-operator-admission-webhook-0.35.0.tgz
+    version: 0.35.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/prometheus-operator
+    apiVersion: v2
+    appVersion: 0.88.0
     created: "2026-01-09T20:54:51.300538382Z"
     description: Prometheus Operator Admission Webhook
     digest: 9476cbcde34799bdb4b6e46c474376a7b21fe8f4ea36697ddf3062bacebc2372
@@ -94208,4 +94263,4 @@ entries:
     urls:
     - https://github.com/sanyer/helm-charts/releases/download/prometheus-yet-another-cloudwatch-exporter-0.39.3/prometheus-yet-another-cloudwatch-exporter-0.39.3.tgz
     version: 0.39.3
-generated: "2026-01-20T20:55:03.254997342Z"
+generated: "2026-01-22T02:54:41.921643168Z"
